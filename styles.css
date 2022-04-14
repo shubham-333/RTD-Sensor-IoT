@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+html {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+body {
+	background: #eee;
+	background: linear-gradient(0deg, rgba(0, 0, 200, 0.2) , rgba(0, 0, 200, 0) );
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    width: 100%;
+    padding: 16px;
+}
+
+.container  h1, .container h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 16px;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #838383;
+}
+
+.container h2 {
+    font-size: 28px;
+    color: #888;
+}
+
+.card {
+    box-shadow: 9px 7px 40px -6px rgba(0,0,0,0.25);
+    padding: 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #888;
+    display: flex;
+    align-items: center;
+}
+
+.card span {
+    color: #454545;
+    font-size: 18px;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 520px) {
+    .container h1 {
+        font-size: 24px;
+    }
+    .container h2 {
+        font-size: 20px;
+    }
+}
